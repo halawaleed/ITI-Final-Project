@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="final_project.css">
+
+    </head>
+    <body>
+        <div id="habitPage">
+            <h1 id="topPage">HABITS</h1>
+        <p id="Enter">Enter the habits you are willing to implement: </p>
+
+        <br>
+
+        <input type="text" id="habitInput">  
+    
+       <button id="addHabitBtn" onclick="addHabit()">Add</button>
+        <ul><li id="habitList"></li>  
+        </ul>
+        <img src="download.jpg" alt="motivational quote" id="photo1">
+        </div>
+
+        <br>
+
+        <button id="allAdded" onclick="startStacking()">Done</button>
+        <div id="stackingPage">  
+            <h1 id="stack">Stack your Habits Daily</h1>
+
+
+        <table id="habitsTable"> 
+            <thead>
+        <tr> 
+            <th>Habits</th>
+            <th>Sat</th>
+            <th>Sun</th>
+            <th>Mon</th>
+            <th>Tues</th>
+            <th>Wednes</th>
+            <th>Thrus</th>
+            <th>Fri</th>
+            </tr>
+            </thead>
+            <tbody id="habitsBody"> 
+  </tbody>
+             
+        </table>
+  </div>
+  <br>
+  
+    <script src="stacking.js"></script>
+    </body>
+</html>

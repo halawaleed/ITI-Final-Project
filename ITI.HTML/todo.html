@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="final_project.css">
+    </head>
+    <body>
+        <div id="todoPage"> 
+            <p id="topPage">TO-DO LISTS</p> 
+            <p id="Enter">Enter your tasks for today: </p>
+            <br>
+            <input type="text" id="todoInput">  
+            <button id="addTaskBtn" onclick="addTask()">Add</button> 
+            <ul> 
+                <li id="taskList"></li>
+                <img src="download.jpg" alt="motivational quote" id="photo1">
+            </ul>
+            <br>
+        </div>
+        <button id="allAdded" onclick="startDoing()">Done</button> 
+
+        <div id="tasksPage">  
+            <h1 id="task">Good luck with your tasks! We're waiting for you.</h1> 
+            <br>
+            <ul> 
+                <li id="userTasks"></li>
+
+            </ul>
+        </div>
+
+       <script src="todo.js"></script>
+    </body>
+</html>

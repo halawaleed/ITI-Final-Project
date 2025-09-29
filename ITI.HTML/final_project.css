@@ -1,0 +1,176 @@
+#begininng{
+font-size: 100px;
+text-align: center;
+background-color: pink;
+color: white;
+font-weight: bold;
+padding: 50px;
+
+}
+#mission{
+font-size: 20px;
+text-align: center;
+
+
+}
+#btn_styling{
+    display: block;
+    margin: 50px auto;
+    background-color:pink;
+    font-size: 35px; 
+    color:white; 
+}
+#btn_styling:hover{
+    text-decoration:underline
+}
+.LABEL, .INPUT{
+    display: none;
+    
+    
+}
+.FORM_STYLING{
+    border-right: 5px pink solid;
+    border-bottom: 5px pink solid;
+    border-top: 5px pink solid;
+    border-left: 5px pink solid;
+    
+}
+#btn2_styling{
+    margin-top: 20px;
+    background-color: pink;
+}  
+#btn2_styling:hover{
+    text-decoration: underline;
+}
+#btn3_styling{
+    display: none;
+    margin-top: 20px;
+    background-color: pink;
+}
+#btn3_styling:hover{
+    text-decoration: underline;
+}
+#interst{
+    display: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+#habit_btn_styling{
+    display: none;
+    margin-top: 15px;
+    background-color: pink;
+    border-radius: 30px;
+}
+ #habit_btn_styling:hover{
+    text-decoration:underline;
+ }
+#studies_btn_styling{
+    display: none;
+    margin-top: 15px;
+    background-color: pink;
+    border-radius: 30px;
+}
+#studies_btn_styling:hover{
+    text-decoration:underline;
+ }
+ #todo_btn_styling{
+    display: none;
+    margin-top: 15px;
+    background-color: pink;
+    border-radius: 30px;
+ }
+#todo_btn_styling:hover{
+    text-decoration:underline;
+ }
+ #Enter{
+    font-size: 25px;
+    color:white;
+    border-top: 10px pink solid;
+    border-bottom: 10px pink solid;
+    border-left: 10px pink solid;
+    border-right: 10px pink solid ;
+    background-color: pink;
+    display: inline-block;
+    font-weight: bold;
+ }
+ #topPage{
+    text-align:center ;
+    font-size: 50px;
+    font-weight: bold;
+    color:white;
+    background-color: pink;
+ }
+ #addHabitBtn{
+    background-color: pink;
+    color: white;
+ }
+#habitList{
+    font-weight: bold;
+}
+ #addTaskBtn{
+    background-color: pink;
+    color: white; }
+#allAdded{
+    background-color: pink;
+    color: white;
+}
+#stackingPage{
+    display:none;
+}
+#stack{
+    text-align: center;
+    color: white;
+    background-color: pink;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+table, th,tr{
+    border: 1px white solid;
+    
+}
+th, tr{
+    background-color: pink;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+table{
+    width: 100%;
+}
+#tasksPage{
+    display:none;
+    text-align: center;
+}
+#task{
+    background-color: pink;
+    text-align: center;
+    font-weight: bold;
+    color:white;
+    font-size: 35px;
+}
+#userTasks{
+    font-size: 25px;
+    font-weight: bold;
+    border: 10px pink solid;
+    border-radius: 10px;
+    display: inline-block;
+    background-color: pink;
+    color: white;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.25);
+}
+#photo1{
+    position: absolute;
+    right: 275px;
+    top:50%;
+    transform: translateY(-50%);
+    width: 300px;
+}
+#photo2{
+    position: absolute;
+    right: 275px;
+    top:50%;
+    transform: translateY(-50%);
+    width: 300px;
+
+}
